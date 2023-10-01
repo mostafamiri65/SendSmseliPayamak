@@ -1,0 +1,25 @@
+﻿m@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-action="Send" method="post">
+  
+    <div class="row col-md-12">
+        <div class="col-md-2"><label>شماره گیرنده</label></div>
+        <div class="col-md-10"><input class="form-control" name="to" maxlength="12" /></div>
+    </div>
+    <div class="row col-md-12">
+        <div class="col-md-2"><label>متن پیام</label></div>
+        <div class="col-md-10"><textarea class="form-control" name="message"></textarea></div>
+    </div>
+    <div class="gap-2 d-grid">
+        <input type="submit" class="btn btn-outline-success" value="Send"/>
+    </div>
+</form>
+
+<div class="col-md-5 d-grid gap-2">
+    <a class="btn btn-secondary" asp-action="SendWithPattern">ارسال پیام</a>
+</div>
+<iframe
+    src="https://localhost:7228/home/ShowTable"
+    height="400" width="900"></iframe>

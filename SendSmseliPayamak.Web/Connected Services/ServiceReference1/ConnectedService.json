@@ -1,0 +1,26 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "https://api.payamak-panel.com/post/send.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReference1"
+    ],
+    "references": [
+      "Microsoft.Web.Infrastructure, {Microsoft.Web.Infrastructure, 1.0.0}",
+      "mpNuget, {Melipayamak.RestClient, 1.0.0}",
+      "System.Web.Helpers, {Microsoft.AspNet.WebPages, 3.2.9}",
+      "System.Web.Mvc, {Microsoft.AspNet.Mvc, 5.2.9}",
+      "System.Web.Razor, {Microsoft.AspNet.Razor, 3.2.9}",
+      "System.Web.WebPages, {Microsoft.AspNet.WebPages, 3.2.9}",
+      "System.Web.WebPages.Deployment, {Microsoft.AspNet.WebPages, 3.2.9}",
+      "System.Web.WebPages.Razor, {Microsoft.AspNet.WebPages, 3.2.9}"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}
